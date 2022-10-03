@@ -19,8 +19,9 @@ def mouth_aspect_ratio(mouth):
 
 	
 	mar = (A + B) / (2.0 * C)
-
 	
+	#updation
+	D = 0
 	return mar
 
 
@@ -92,3 +93,4 @@ while True:
 
 cv2.destroyAllWindows()
 vs.stop()
+
